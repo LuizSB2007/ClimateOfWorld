@@ -1,0 +1,123 @@
+*{
+    border: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f0f0f5;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+}
+.card{
+    background-color: rgb(248, 255, 255);
+    width: 400px;
+    height: 420px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    margin-top: 30%;
+    border-radius: 10px;
+}
+.card header{
+    font-size: 18px;
+    padding: 10px 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 45px;
+}
+.card header h1{
+    display: flex;
+    align-items: center;
+}
+.card header h2{
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.card main{
+    width: 100%;
+}
+.card .cardS p, .card .cardS h1{
+    padding: 10px 0;
+}
+.card .cardS .principal {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.card .cardS .principal .graus{
+    height: 70px;
+    font-size: 65px;
+    font-weight: bold;
+}
+.card .cardS .principal h3{
+    padding: 15px 0 0;
+}
+.card .cardS .windumity{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.card .cardS .windumity p{
+    display: flex;
+    align-items: center;
+    padding: 15px 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.card .cardS .secundario{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    flex-wrap: wrap;
+}
+.card .cardS .secundario p{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.card .cardS form{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.card .cardS form input{
+    outline: none;
+    transition: .4s;
+    border-radius: 10px;
+    height: 25px;
+    width: 200px;
+    text-align: center;
+    margin-bottom: 10px;
+    border: #f0f0f5 solid;
+}
+.card .cardS form input:focus{
+    background: #f0f0f5;
+    transform: scale(1.2);
+
+}
+.card .cardS form button{
+    width: 200px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f5;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+.card .cardS form button:hover{
+    background-color: transparent;
+    border: #dddde3 solid;
+
+}
